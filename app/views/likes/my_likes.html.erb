@@ -1,0 +1,13 @@
+<div class="page-header">
+  <h3>My liked photos</h3>
+
+  <% @liked_photos.each do |photo| %>
+
+    <li class="list-group-item">
+      <img src="<%= photo.image %>" width="500">
+    </li>
+
+  <% end %>
+
+</div>
+
